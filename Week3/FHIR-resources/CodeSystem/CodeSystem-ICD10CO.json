@@ -1,0 +1,2063 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ICD10CO",
+  "id": "ICD10CO",
+  "title": "CodeSystem: International Statistical Classification of Diseases and Related Health Problems - Version 10 - Colombia (ICD10CO)",
+  "description": "Code system for International Statistical Classification of Diseases and Related Health Problems - Version 10.\n\n[ES: Sistema de códificación de Clasificación Estadística Internacional de Enfermedades y Problemas Relacionados con la Salud - Versión 10.]",
+  "version": "3.0",
+  "url": "http://hl7.org/fhir/sid/icd-10",
+  "concept": [
+    {
+      "code": "I10X",
+      "display": "Hipertension esencial (primaria)"
+    },
+    {
+      "code": "K051",
+      "display": "Gingivitis cronica"
+    },
+    {
+      "code": "Z000",
+      "display": "Examen medico general"
+    },
+    {
+      "code": "Z139",
+      "display": "Examen de pesquisa especial, no especificado"
+    },
+    {
+      "code": "U072",
+      "display": "Enfermedad respiratoria aguda por posible coronavirus (COVID-19)"
+    },
+    {
+      "code": "Z760",
+      "display": "Consulta para repeticion de receta"
+    },
+    {
+      "code": "E039",
+      "display": "Hipotiroidismo, no especificado"
+    },
+    {
+      "code": "K081",
+      "display": "Perdida de dientes debida a accidente, extraccion o enfermedad periodontal local"
+    },
+    {
+      "code": "E119",
+      "display": "Diabetes mellitus no insulinodependiente sin mencion de complicacion"
+    },
+    {
+      "code": "U071",
+      "display": "Enfermedad respiratoria aguda debido al nuevo coronavirus (COVID-19)"
+    },
+    {
+      "code": "E669",
+      "display": "Obesidad, no especificada"
+    },
+    {
+      "code": "E782",
+      "display": "Hiperlipidemia mixta"
+    },
+    {
+      "code": "Z115",
+      "display": "Examen de pesquisa especial para otras enfermedades virales"
+    },
+    {
+      "code": "K073",
+      "display": "Anomalias de la posicion del diente"
+    },
+    {
+      "code": "M545",
+      "display": "Lumbago no especificado"
+    },
+    {
+      "code": "E660",
+      "display": "Obesidad debida a exceso de calorias"
+    },
+    {
+      "code": "S025",
+      "display": "Fractura de los dientes"
+    },
+    {
+      "code": "J00X",
+      "display": "Rinofaringitis aguda (resfriado comun)"
+    },
+    {
+      "code": "Z012",
+      "display": "Examen odontologico"
+    },
+    {
+      "code": "K053",
+      "display": "Periodontitis cronica"
+    },
+    {
+      "code": "Z762",
+      "display": "Consulta para atencion y supervision de la salud de otros niños o lactantes sanos"
+    },
+    {
+      "code": "K072",
+      "display": "Anomalias de la relacion entre los arcos dentarios"
+    },
+    {
+      "code": "K030",
+      "display": "Atricion excesiva de los dientes"
+    },
+    {
+      "code": "K021",
+      "display": "Caries de la dentina"
+    },
+    {
+      "code": "Z300",
+      "display": "Consejo y asesoramiento general sobre la anticoncepcion"
+    },
+    {
+      "code": "K074",
+      "display": "Maloclusion de tipo no especificado"
+    },
+    {
+      "code": "N40X",
+      "display": "Hiperplasia de la prostata"
+    },
+    {
+      "code": "J304",
+      "display": "Rinitis alergica, no especificada"
+    },
+    {
+      "code": "N390",
+      "display": "Infeccion de vias urinarias, sitio no especificado"
+    },
+    {
+      "code": "M542",
+      "display": "Cervicalgia"
+    },
+    {
+      "code": "M199",
+      "display": "Artrosis, no especificada"
+    },
+    {
+      "code": "R635",
+      "display": "Aumento anormal de peso"
+    },
+    {
+      "code": "E780",
+      "display": "Hipercolesterolemia pura"
+    },
+    {
+      "code": "H527",
+      "display": "Trastorno de la refraccion, no especificado"
+    },
+    {
+      "code": "Z028",
+      "display": "Otros examenes para fines administrativos"
+    },
+    {
+      "code": "F412",
+      "display": "Trastorno mixto de ansiedad y depresion"
+    },
+    {
+      "code": "H524",
+      "display": "Presbicia"
+    },
+    {
+      "code": "E785",
+      "display": "Hiperlipidemia no especificada"
+    },
+    {
+      "code": "J449",
+      "display": "Enfermedad pulmonar obstructiva cronica, no especificada"
+    },
+    {
+      "code": "Z972",
+      "display": "Presencia de dispositivo protesico dental (completo) (parcial)"
+    },
+    {
+      "code": "K060",
+      "display": "Retraccion gingival"
+    },
+    {
+      "code": "K589",
+      "display": "Sindrome del colon irritable sin diarrea"
+    },
+    {
+      "code": "K297",
+      "display": "Gastritis, no especificada"
+    },
+    {
+      "code": "Z713",
+      "display": "Consulta para instrucción y vigilancia de la dieta"
+    },
+    {
+      "code": "K038",
+      "display": "Otras enfermedades especificadas de los tejidos duros de los dientes"
+    },
+    {
+      "code": "M751",
+      "display": "Sindrome de manguito rotatorio"
+    },
+    {
+      "code": "M255",
+      "display": "Dolor en articulacion"
+    },
+    {
+      "code": "N189",
+      "display": "Insuficiencia renal cronica, no especificada"
+    },
+    {
+      "code": "K023",
+      "display": "Caries dentaria detenida"
+    },
+    {
+      "code": "K590",
+      "display": "Constipacion"
+    },
+    {
+      "code": "K076",
+      "display": "Trastornos de la articulacion temporomaxilar"
+    },
+    {
+      "code": "A09X",
+      "display": "Diarrea y gastroenteritis de presunto origen infeccioso"
+    },
+    {
+      "code": "M150",
+      "display": "(osteo)artrosis primaria generalizada"
+    },
+    {
+      "code": "R13X",
+      "display": "Disfagia"
+    },
+    {
+      "code": "E109",
+      "display": "Diabetes mellitus insulinodependiente sin mencion de complicacion"
+    },
+    {
+      "code": "K100",
+      "display": "Trastornos del desarrollo de los maxilares"
+    },
+    {
+      "code": "R32X",
+      "display": "Incontinencia urinaria, no especificada"
+    },
+    {
+      "code": "K031",
+      "display": "Abrasion de los dientes"
+    },
+    {
+      "code": "G473",
+      "display": "Apnea del sueño"
+    },
+    {
+      "code": "E559",
+      "display": "Deficiencia de vitamina d, no especificada"
+    },
+    {
+      "code": "I872",
+      "display": "Insuficiencia venosa (cronica) (periferica)"
+    },
+    {
+      "code": "K219",
+      "display": "Enfermedad del reflujo gastroesofagico sin esofagitis"
+    },
+    {
+      "code": "Z136",
+      "display": "Examen de pesquisa especial para trastornos cardiovasculares"
+    },
+    {
+      "code": "H409",
+      "display": "Glaucoma, no especificado"
+    },
+    {
+      "code": "F419",
+      "display": "Trastorno de ansiedad , no especificado"
+    },
+    {
+      "code": "R51X",
+      "display": "Cefalea"
+    },
+    {
+      "code": "K295",
+      "display": "Gastritis cronica, no especificada"
+    },
+    {
+      "code": "M179",
+      "display": "Gonartrosis, no especificada"
+    },
+    {
+      "code": "L209",
+      "display": "Dermatitis atopica, no especificada"
+    },
+    {
+      "code": "Z003",
+      "display": "Examen del estado de desarrollo del adolescente"
+    },
+    {
+      "code": "H400",
+      "display": "Sospecha de glaucoma"
+    },
+    {
+      "code": "F009",
+      "display": "Demencia en la enfermedad de alzheimer, no especificada (g30.9†)"
+    },
+    {
+      "code": "M796",
+      "display": "Dolor en miembro"
+    },
+    {
+      "code": "K040",
+      "display": "Pulpitis"
+    },
+    {
+      "code": "L309",
+      "display": "Dermatitis, no especificada"
+    },
+    {
+      "code": "Z133",
+      "display": "Examen de pesquisa especial para trastornos mentales y del comportamiento"
+    },
+    {
+      "code": "H522",
+      "display": "Astigmatismo"
+    },
+    {
+      "code": "Z761",
+      "display": "Consulta para atencion y supervision de la salud del niño"
+    },
+    {
+      "code": "G20X",
+      "display": "Enfermedad de parkinson"
+    },
+    {
+      "code": "B829",
+      "display": "Parasitosis intestinal, sin otra especificacion"
+    },
+    {
+      "code": "J459",
+      "display": "Asma, no especificada"
+    },
+    {
+      "code": "J209",
+      "display": "Bronquitis aguda, no especificada"
+    },
+    {
+      "code": "M170",
+      "display": "Gonartrosis primaria, bilateral"
+    },
+    {
+      "code": "I499",
+      "display": "Arritmia cardiaca, no especificada"
+    },
+    {
+      "code": "Z742",
+      "display": "Problemas relacionados con la necesidad de asistencia domiciliaria y que ningun otro miembro del hogar puede proporcionar"
+    },
+    {
+      "code": "M350",
+      "display": "Sindrome seco [sjögren]"
+    },
+    {
+      "code": "J069",
+      "display": "Infeccion aguda de las vias respiratorias superiores, no especificada"
+    },
+    {
+      "code": "M791",
+      "display": "Mialgia"
+    },
+    {
+      "code": "L709",
+      "display": "Acne, no especificado"
+    },
+    {
+      "code": "K30X",
+      "display": "Dispepsia"
+    },
+    {
+      "code": "B349",
+      "display": "Infeccion viral, no especificada"
+    },
+    {
+      "code": "J029",
+      "display": "Faringitis aguda, no especificada"
+    },
+    {
+      "code": "R104",
+      "display": "Otros dolores abdominales y los no especificados"
+    },
+    {
+      "code": "Z740",
+      "display": "Problemas relacionados con movilidad reducida"
+    },
+    {
+      "code": "E149",
+      "display": "Diabetes mellitus, no especificada sin mencion de complicacion"
+    },
+    {
+      "code": "G470",
+      "display": "Trastornos del inicio y del mantenimiento del sueño [insomnios]"
+    },
+    {
+      "code": "F067",
+      "display": "Trastorno cognoscitivo leve"
+    },
+    {
+      "code": "K045",
+      "display": "Periodontitis apical cronica"
+    },
+    {
+      "code": "F900",
+      "display": "Perturbacion de la actividad y de la atencion"
+    },
+    {
+      "code": "M624",
+      "display": "Contractura muscular"
+    },
+    {
+      "code": "L219",
+      "display": "Dermatitis seborreica, no especificada"
+    },
+    {
+      "code": "T784",
+      "display": "Alergia no especificada"
+    },
+    {
+      "code": "I48X",
+      "display": "Fibrilacion y aleteo auricular"
+    },
+    {
+      "code": "L700",
+      "display": "Acne vulgar"
+    },
+    {
+      "code": "Z001",
+      "display": "Control de salud de rutina del niño"
+    },
+    {
+      "code": "H813",
+      "display": "Otros vertigos perifericos"
+    },
+    {
+      "code": "I255",
+      "display": "Cardiomiopatia isquemica"
+    },
+    {
+      "code": "H269",
+      "display": "Catarata, no especificada"
+    },
+    {
+      "code": "G309",
+      "display": "Enfermedad de alzheimer, no especificada"
+    },
+    {
+      "code": "M544",
+      "display": "Lumbago con ciatica"
+    },
+    {
+      "code": "M810",
+      "display": "Osteoporosis postmenopausica, sin fractura patologica"
+    },
+    {
+      "code": "G560",
+      "display": "Sindrome del tunel carpiano"
+    },
+    {
+      "code": "E781",
+      "display": "Hipergliceridemia pura"
+    },
+    {
+      "code": "M549",
+      "display": "Dorsalgia, no especificada"
+    },
+    {
+      "code": "H521",
+      "display": "Miopia"
+    },
+    {
+      "code": "Z637",
+      "display": "Problemas relacionados con otros hechos estresantes que afectan a la familia y al hogar"
+    },
+    {
+      "code": "H401",
+      "display": "Glaucoma primario de angulo abierto"
+    },
+    {
+      "code": "M511",
+      "display": "Trastorno de disco lumbar y otros, con radiculopatia"
+    },
+    {
+      "code": "E790",
+      "display": "Hiperuricemia sin signos de artritis inflamatoria y enfermedad tofacea"
+    },
+    {
+      "code": "Z961",
+      "display": "Presencia de lentes intraoculares"
+    },
+    {
+      "code": "I839",
+      "display": "Venas varicosas de los miembros inferiores sin ulcera ni inflamacion"
+    },
+    {
+      "code": "G439",
+      "display": "Migraña, no especificada"
+    },
+    {
+      "code": "Z988",
+      "display": "Otros estados postquirurgicos especificados"
+    },
+    {
+      "code": "M159",
+      "display": "Poliartrosis, no especificada"
+    },
+    {
+      "code": "Z728",
+      "display": "Otros problemas relacionados con el estilo de vida"
+    },
+    {
+      "code": "F03X",
+      "display": "Demencia , no especificada"
+    },
+    {
+      "code": "Z124",
+      "display": "Examen de pesquisa especial para tumor del cuello uterino"
+    },
+    {
+      "code": "Z723",
+      "display": "Problemas relacionados con la falta de ejercicio fisico"
+    },
+    {
+      "code": "M190",
+      "display": "Artrosis primaria de otras articulaciones"
+    },
+    {
+      "code": "Z911",
+      "display": "Historia personal de incumplimiento del regimen o tratamiento medico"
+    },
+    {
+      "code": "R522",
+      "display": "Otro dolor cronico"
+    },
+    {
+      "code": "K039",
+      "display": "Enfermedad no especificada de los tejidos dentales duros"
+    },
+    {
+      "code": "Z724",
+      "display": "Problemas relacionados con la dieta y habitos alimentarios inapropiados"
+    },
+    {
+      "code": "L570",
+      "display": "Queratosis actinica"
+    },
+    {
+      "code": "R739",
+      "display": "Hiperglicemia, no especificada"
+    },
+    {
+      "code": "J303",
+      "display": "Otras rinitis alergicas"
+    },
+    {
+      "code": "K036",
+      "display": "Depositos [acreciones] en los dientes"
+    },
+    {
+      "code": "J039",
+      "display": "Amigdalitis aguda, no especificada"
+    },
+    {
+      "code": "K050",
+      "display": "Gingivitis aguda"
+    },
+    {
+      "code": "H811",
+      "display": "Vertigo paroxistico benigno"
+    },
+    {
+      "code": "C61X",
+      "display": "Tumor maligno de la prostata"
+    },
+    {
+      "code": "B351",
+      "display": "Tiña de las uñas"
+    },
+    {
+      "code": "Z010",
+      "display": "Examen de ojos y de la vision"
+    },
+    {
+      "code": "B07X",
+      "display": "Verrugas viricas"
+    },
+    {
+      "code": "I698",
+      "display": "Secuelas de otras enfermedades cerebrovasculares y de las no especificadas"
+    },
+    {
+      "code": "M819",
+      "display": "Osteoporosis no especificada, sin fractura patologica"
+    },
+    {
+      "code": "Z029",
+      "display": "Examen para fines administrativos, no especificado"
+    },
+    {
+      "code": "D649",
+      "display": "Anemia de tipo no especificado"
+    },
+    {
+      "code": "M239",
+      "display": "Trastornos interno de la rodilla, no especificado"
+    },
+    {
+      "code": "Z316",
+      "display": "Consejo y asesoramiento general sobre la procreacion"
+    },
+    {
+      "code": "I694",
+      "display": "Secuelas de enfermedad cerebrovascular, no especificada como hemorragica u oclusiva"
+    },
+    {
+      "code": "Z359",
+      "display": "Supervision de embarazo de alto riesgo, sin otra especificacion"
+    },
+    {
+      "code": "R509",
+      "display": "Fiebre, no especificada"
+    },
+    {
+      "code": "N760",
+      "display": "Vaginitis aguda"
+    },
+    {
+      "code": "M238",
+      "display": "Otros trastornos internos de la rodilla"
+    },
+    {
+      "code": "Z931",
+      "display": "Gastrostomia"
+    },
+    {
+      "code": "I259",
+      "display": "Enfermedad isquemia cronica del corazon, no especificada"
+    },
+    {
+      "code": "N771",
+      "display": "Vaginitis, vulvitis y vulvovaginitis en enfermedades infecciosas y parasitarias clasificadas en otra parte"
+    },
+    {
+      "code": "I890",
+      "display": "Linfedema, no clasificado en otra parte"
+    },
+    {
+      "code": "K022",
+      "display": "Caries del cemento"
+    },
+    {
+      "code": "Z290",
+      "display": "Aislamiento"
+    },
+    {
+      "code": "H353",
+      "display": "Degeneracion de la macula y del polo posterior del ojo"
+    },
+    {
+      "code": "K082",
+      "display": "Atrofia de reborde alveolar desdentado"
+    },
+    {
+      "code": "K210",
+      "display": "Enfermedad del reflujo gastroesofagico con esofagitis"
+    },
+    {
+      "code": "H612",
+      "display": "Cerumen impactado"
+    },
+    {
+      "code": "H049",
+      "display": "Trastorno del aparato lagrimal, no especificado"
+    },
+    {
+      "code": "K580",
+      "display": "Sindrome del colon irritable con diarrea"
+    },
+    {
+      "code": "H526",
+      "display": "Otros trastornos de la refraccion"
+    },
+    {
+      "code": "L82X",
+      "display": "Queratosis seborreica"
+    },
+    {
+      "code": "E118",
+      "display": "Diabetes mellitus no insulinodependiente con complicaciones no especificadas"
+    },
+    {
+      "code": "E789",
+      "display": "Trastorno del metabolismo de las lipoproteinas, no especificado"
+    },
+    {
+      "code": "M773",
+      "display": "Espolon calcaneo"
+    },
+    {
+      "code": "K010",
+      "display": "Dientes incluidos"
+    },
+    {
+      "code": "G479",
+      "display": "Trastorno del sueño, no especificado"
+    },
+    {
+      "code": "E116",
+      "display": "Diabetes mellitus no insulinodependiente con otras complicaciones especificadas"
+    },
+    {
+      "code": "Z002",
+      "display": "Examen durante el periodo de crecimiento rapido en la infancia"
+    },
+    {
+      "code": "J310",
+      "display": "Rinitis cronica"
+    },
+    {
+      "code": "F432",
+      "display": "Trastornos de adaptacion"
+    },
+    {
+      "code": "J343",
+      "display": "Hipertrofia de los cornetes nasales"
+    },
+    {
+      "code": "C509",
+      "display": "Tumor maligno de la mama, parte no especificada"
+    },
+    {
+      "code": "F411",
+      "display": "Trastorno de ansiedad generalizada"
+    },
+    {
+      "code": "E784",
+      "display": "Otra hiperlipidemia"
+    },
+    {
+      "code": "M771",
+      "display": "Epicondilitis lateral"
+    },
+    {
+      "code": "L853",
+      "display": "Xerosis del cutis"
+    },
+    {
+      "code": "H919",
+      "display": "Hipoacusia, no especificada"
+    },
+    {
+      "code": "Z098",
+      "display": "Examen de seguimiento consecutivo a otro tratamiento por otras afecciones"
+    },
+    {
+      "code": "R634",
+      "display": "Perdida anormal de peso"
+    },
+    {
+      "code": "I500",
+      "display": "Insuficiencia cardiaca congestiva"
+    },
+    {
+      "code": "F001",
+      "display": "Demencia en la enfermedad de alzheimer, de comienzo tardio (g30.1†)"
+    },
+    {
+      "code": "K760",
+      "display": "Degeneracion grasa del higado, no clasificada en otra parte"
+    },
+    {
+      "code": "Z540",
+      "display": "Convalecencia consecutiva a cirugia"
+    },
+    {
+      "code": "J450",
+      "display": "Asma predominantemente alergica"
+    },
+    {
+      "code": "I251",
+      "display": "Enfermedad aterosclerotica del corazon"
+    },
+    {
+      "code": "Y66X",
+      "display": "No administracion de la atencion medica y quirurgica"
+    },
+    {
+      "code": "M765",
+      "display": "Tendinitis rotuliana"
+    },
+    {
+      "code": "E749",
+      "display": "Trastorno del metabolismo de los carbohidratos, no especificado"
+    },
+    {
+      "code": "R101",
+      "display": "Dolor abdominal localizado en parte superior"
+    },
+    {
+      "code": "H101",
+      "display": "Conjuntivitis atopica aguda"
+    },
+    {
+      "code": "G409",
+      "display": "Epilepsia, tipo no especificado"
+    },
+    {
+      "code": "H520",
+      "display": "Hipermetropia"
+    },
+    {
+      "code": "R11X",
+      "display": "Nausea y vomito"
+    },
+    {
+      "code": "J80X",
+      "display": "Sindrome de dificultad respiratoria del adulto"
+    },
+    {
+      "code": "Z741",
+      "display": "Problemas relacionados con la necesidad de ayuda para el cuidado personal"
+    },
+    {
+      "code": "R42X",
+      "display": "Mareo y desvanecimiento"
+    },
+    {
+      "code": "N951",
+      "display": "Estados menopausicos y climatericos femeninos"
+    },
+    {
+      "code": "N19X",
+      "display": "Insuficiencia renal no especificada"
+    },
+    {
+      "code": "F808",
+      "display": "Otros trastornos del desarrollo del habla y del lenguaje"
+    },
+    {
+      "code": "M754",
+      "display": "Sindrome de abduccion dolorosa del hombro"
+    },
+    {
+      "code": "J393",
+      "display": "Reaccion de hipersensibilidad de las vias respiratorias superiores, sitio no especificado"
+    },
+    {
+      "code": "J019",
+      "display": "Sinusitis aguda, no especificada"
+    },
+    {
+      "code": "M755",
+      "display": "Bursitis del hombro"
+    },
+    {
+      "code": "M653",
+      "display": "Dedo en gatillo"
+    },
+    {
+      "code": "H103",
+      "display": "Conjuntivitis aguda, no especificada"
+    },
+    {
+      "code": "R268",
+      "display": "Otras anormalidades de la marcha y de la movilidad y las no especificadas"
+    },
+    {
+      "code": "K049",
+      "display": "Otras enfermedades y las no especificadas de la pulpa y del tejido periapical"
+    },
+    {
+      "code": "E106",
+      "display": "Diabetes mellitus insulinodependiente con otras complicaciones especificadas"
+    },
+    {
+      "code": "Z123",
+      "display": "Examen de pesquisa especial para tumor de la mama"
+    },
+    {
+      "code": "K296",
+      "display": "Otras gastritis"
+    },
+    {
+      "code": "Z008",
+      "display": "Otros examenes generales"
+    },
+    {
+      "code": "R05X",
+      "display": "Tos"
+    },
+    {
+      "code": "Z636",
+      "display": "Problemas relacionados con familiar dependiente, necesitado de cuidado en la casa"
+    },
+    {
+      "code": "Z630",
+      "display": "Problemas en la relacion entre esposos o pareja"
+    },
+    {
+      "code": "K075",
+      "display": "Anomalias dentofaciales funcionales"
+    },
+    {
+      "code": "H539",
+      "display": "Alteracion visual, no especificada"
+    },
+    {
+      "code": "E038",
+      "display": "Otros hipotiroidismos especificados"
+    },
+    {
+      "code": "N394",
+      "display": "Otras incontinencias urinarias especificadas"
+    },
+    {
+      "code": "N952",
+      "display": "Vaginitis atrofica postmenopausica"
+    },
+    {
+      "code": "Z950",
+      "display": "Presencia de marcapaso cardiaco"
+    },
+    {
+      "code": "S934",
+      "display": "Esguinces y torceduras del tobillo"
+    },
+    {
+      "code": "E108",
+      "display": "Diabetes mellitus insulinodependiente con complicaciones no especificadas"
+    },
+    {
+      "code": "E678",
+      "display": "Otros tipos de hiperalimentacion especificados"
+    },
+    {
+      "code": "Y848",
+      "display": "Otros procedimientos medicos"
+    },
+    {
+      "code": "G632",
+      "display": "Polineuropatia diabetica (e10-e14† con cuarto caracter comun .4)"
+    },
+    {
+      "code": "Z321",
+      "display": "Embarazo confirmado"
+    },
+    {
+      "code": "F331",
+      "display": "Trastorno depresivo recurrente, episodio moderado presente"
+    },
+    {
+      "code": "G442",
+      "display": "Cefalea debida a tension"
+    },
+    {
+      "code": "E668",
+      "display": "Otros tipos de obesidad"
+    },
+    {
+      "code": "E107",
+      "display": "Diabetes mellitus insulinodependiente con complicaciones multiples"
+    },
+    {
+      "code": "R030",
+      "display": "Lectura elevada de la presion sanguinea, sin diagnostico de hipertension"
+    },
+    {
+      "code": "R074",
+      "display": "Dolor en el pecho, no especificado"
+    },
+    {
+      "code": "K083",
+      "display": "Raiz dental retenida"
+    },
+    {
+      "code": "R102",
+      "display": "Dolor pelvico y perineal"
+    },
+    {
+      "code": "M069",
+      "display": "Artritis reumatoide, no especificada"
+    },
+    {
+      "code": "N200",
+      "display": "Calculo del riñon"
+    },
+    {
+      "code": "H048",
+      "display": "Otros trastornos especificados del aparato lagrimal"
+    },
+    {
+      "code": "K071",
+      "display": "Anomalias de la relacion maxilobasilar"
+    },
+    {
+      "code": "L998",
+      "display": "Otros trastornos de la piel y del tejido subcutaneo en enfermedades clasificadas en otra parte"
+    },
+    {
+      "code": "J342",
+      "display": "Desviacion del tabique nasal"
+    },
+    {
+      "code": "F321",
+      "display": "Episodio depresivo moderado"
+    },
+    {
+      "code": "R418",
+      "display": "Otros sintomas y signos que involucran la funcion cognoscitiva y la conciencia y los no especificados"
+    },
+    {
+      "code": "F329",
+      "display": "Episodio depresivo, no especificado"
+    },
+    {
+      "code": "H041",
+      "display": "Otros trastornos de la glandula lagrimal"
+    },
+    {
+      "code": "K020",
+      "display": "Caries limitada al esmalte"
+    },
+    {
+      "code": "E117",
+      "display": "Diabetes mellitus no insulinodependiente con complicaciones multiples"
+    },
+    {
+      "code": "M758",
+      "display": "Otras lesiones del hombro"
+    },
+    {
+      "code": "L500",
+      "display": "Urticaria alergica"
+    },
+    {
+      "code": "M224",
+      "display": "Condromalacia de la rotula"
+    },
+    {
+      "code": "K088",
+      "display": "Otras afecciones especificadas de los dientes y de sus estructuras de sosten"
+    },
+    {
+      "code": "Z532",
+      "display": "Procedimiento no realizado por decision del paciente, por otras razones y las no especificadas"
+    },
+    {
+      "code": "J22X",
+      "display": "Infeccion aguda no especificada de las vias respiratorias inferiores"
+    },
+    {
+      "code": "R520",
+      "display": "Dolor agudo"
+    },
+    {
+      "code": "D509",
+      "display": "Anemia por deficiencia de hierro sin otra especificacion"
+    },
+    {
+      "code": "R521",
+      "display": "Dolor cronico intratable"
+    },
+    {
+      "code": "R55X",
+      "display": "Sincope y colapso"
+    },
+    {
+      "code": "H259",
+      "display": "Catarata senil, no especificada"
+    },
+    {
+      "code": "F510",
+      "display": "Insomnio no organico"
+    },
+    {
+      "code": "R060",
+      "display": "Disnea"
+    },
+    {
+      "code": "R54X",
+      "display": "Senilidad"
+    },
+    {
+      "code": "C443",
+      "display": "Tumor maligno de la piel de otras partes y de las no especificadas de la cara"
+    },
+    {
+      "code": "Z921",
+      "display": "Historia personal de uso (presente) de anticoagulantes por largo tiempo"
+    },
+    {
+      "code": "H903",
+      "display": "Hipoacusia neurosensorial, bilateral"
+    },
+    {
+      "code": "Z601",
+      "display": "Problemas relacionados con situacion familiar atipica"
+    },
+    {
+      "code": "M154",
+      "display": "(osteo)artrosis erosiva"
+    },
+    {
+      "code": "Z125",
+      "display": "Examen de pesquisa especial para tumor de la prostata"
+    },
+    {
+      "code": "M519",
+      "display": "Trastornos de los discos intervertebrales, no especificado"
+    },
+    {
+      "code": "I509",
+      "display": "Insuficiencia cardiaca, no especificada"
+    },
+    {
+      "code": "K429",
+      "display": "Hernia umbilical sin obstruccion ni gangrena"
+    },
+    {
+      "code": "B86X",
+      "display": "Escabiosis"
+    },
+    {
+      "code": "L239",
+      "display": "Dermatitis alergica de contacto, de causa no especificada"
+    },
+    {
+      "code": "N939",
+      "display": "Hemorragia vaginal y uterina anormal, no especificada"
+    },
+    {
+      "code": "K573",
+      "display": "Enfermedad diverticular del intestino grueso sin perforacion ni absceso"
+    },
+    {
+      "code": "E282",
+      "display": "Sindrome de ovario poliquistico"
+    },
+    {
+      "code": "E02X",
+      "display": "Hipotiroidismo subclinico por deficiencia de yodo"
+    },
+    {
+      "code": "K055",
+      "display": "Otras enfermedades periodontales"
+    },
+    {
+      "code": "Z309",
+      "display": "Asistencia para la anticoncepcion, no especificada"
+    },
+    {
+      "code": "M353",
+      "display": "Polimialgia reumatica"
+    },
+    {
+      "code": "M419",
+      "display": "Escoliosis, no especificada"
+    },
+    {
+      "code": "H110",
+      "display": "Pterigion"
+    },
+    {
+      "code": "I845",
+      "display": "Hemorroides externas sin complicacion"
+    },
+    {
+      "code": "Z515",
+      "display": "Atencion paliativa"
+    },
+    {
+      "code": "Z922",
+      "display": "Historia personal de uso (presente) de otros medicamentos por largo tiempo"
+    },
+    {
+      "code": "S832",
+      "display": "Desgarro de meniscos, presente"
+    },
+    {
+      "code": "B354",
+      "display": "Tiña del cuerpo [tinea corporis]"
+    },
+    {
+      "code": "Z108",
+      "display": "Otros controles generales de salud de rutina de otras subpoblaciones definidas"
+    },
+    {
+      "code": "G448",
+      "display": "Otros sindromes de cefalea especificados"
+    },
+    {
+      "code": "K041",
+      "display": "Necrosis de la pulpa"
+    },
+    {
+      "code": "B029",
+      "display": "Herpes zoster sin complicaciones"
+    },
+    {
+      "code": "M198",
+      "display": "Otras artrosis especificadas"
+    },
+    {
+      "code": "F320",
+      "display": "Episodio depresivo leve"
+    },
+    {
+      "code": "G629",
+      "display": "Polineuropatia, no especificada"
+    },
+    {
+      "code": "H104",
+      "display": "Conjuntivitis cronica"
+    },
+    {
+      "code": "M059",
+      "display": "Artritis reumatoide seropositiva, sin otra especificacion"
+    },
+    {
+      "code": "Z463",
+      "display": "Prueba y ajuste de protesis dental"
+    },
+    {
+      "code": "K808",
+      "display": "Otras colelitiasis"
+    },
+    {
+      "code": "Z955",
+      "display": "Presencia de angioplastia, injertos y protesis cardiovasculares"
+    },
+    {
+      "code": "E041",
+      "display": "Nodulo tiroideo solitario no toxico"
+    },
+    {
+      "code": "Z768",
+      "display": "Persona en contacto con los servicios de salud en otras circunstancias especificadas"
+    },
+    {
+      "code": "B342",
+      "display": "Infeccion debida a coronavirus, sin otra especificacion"
+    },
+    {
+      "code": "I679",
+      "display": "Enfermedad cerebrovascular, no especificada"
+    },
+    {
+      "code": "H109",
+      "display": "Conjuntivitis, no especificada"
+    },
+    {
+      "code": "L208",
+      "display": "Otras dermatitis atopicas"
+    },
+    {
+      "code": "N602",
+      "display": "Fibroadenosis de la mama"
+    },
+    {
+      "code": "E441",
+      "display": "Desnutricion proteicocalorica leve"
+    },
+    {
+      "code": "N959",
+      "display": "Trastorno menopausico y perimenopausico, no especificado"
+    },
+    {
+      "code": "F200",
+      "display": "Esquizofrenia paranoide"
+    },
+    {
+      "code": "L984",
+      "display": "Ulcera cronica de la piel, no clasificada en otra parte"
+    },
+    {
+      "code": "K028",
+      "display": "Otras caries dentales"
+    },
+    {
+      "code": "F319",
+      "display": "Trastorno afectivo bipolar, no especificado"
+    },
+    {
+      "code": "K003",
+      "display": "Dientes moteados"
+    },
+    {
+      "code": "D259",
+      "display": "Leiomioma del utero, sin otra especificacion"
+    },
+    {
+      "code": "H108",
+      "display": "Otras conjuntivitis"
+    },
+    {
+      "code": "K029",
+      "display": "Caries dental, no especificada"
+    },
+    {
+      "code": "I849",
+      "display": "Hemorroides no especificadas, sin complicacion"
+    },
+    {
+      "code": "E756",
+      "display": "Trastornos de almacenamiento de lipidos, no especificado"
+    },
+    {
+      "code": "M766",
+      "display": "Tendinitis aquiliana"
+    },
+    {
+      "code": "B369",
+      "display": "Micosis superficial, sin otra especificacion"
+    },
+    {
+      "code": "Z634",
+      "display": "Problemas relacionados con la desaparicion o muerte de un miembro de la familia"
+    },
+    {
+      "code": "K409",
+      "display": "Hernia inguinal unilateral o no especificada, sin obstrucion ni gangrena"
+    },
+    {
+      "code": "R490",
+      "display": "Disfonia"
+    },
+    {
+      "code": "I119",
+      "display": "Enfermedad cardiaca hipertensiva sin insuficiencia cardiaca (congestiva)"
+    },
+    {
+      "code": "F809",
+      "display": "Trastorno del desarrollo del habla y del lenguaje no especificado"
+    },
+    {
+      "code": "H931",
+      "display": "Tinnitus"
+    },
+    {
+      "code": "Z304",
+      "display": "Supervision del uso de drogas anticonceptivas"
+    },
+    {
+      "code": "M800",
+      "display": "Osteoporosis postmenopausica, con fractura patologica"
+    },
+    {
+      "code": "F317",
+      "display": "Trastorno afectivo bipolar, actualmente en remision"
+    },
+    {
+      "code": "Z318",
+      "display": "Otra atencion especificada para la procreacion"
+    },
+    {
+      "code": "R103",
+      "display": "Dolor localizado en otras partes inferiores del abdomen"
+    },
+    {
+      "code": "N300",
+      "display": "Cistitis agudas"
+    },
+    {
+      "code": "M792",
+      "display": "Neuralgia y neuritis, no especificadas"
+    },
+    {
+      "code": "H010",
+      "display": "Blefaritis"
+    },
+    {
+      "code": "E890",
+      "display": "Hipotiroidismo consecutivo a procedimientos"
+    },
+    {
+      "code": "K293",
+      "display": "Gastritis cronica superficial."
+    },
+    {
+      "code": "H609",
+      "display": "Otitis externa, sin otra especificacion"
+    },
+    {
+      "code": "K291",
+      "display": "Otras gastritis agudas"
+    },
+    {
+      "code": "I842",
+      "display": "Hemorroides internas sin complicacion"
+    },
+    {
+      "code": "Z138",
+      "display": "Examen de pesquisa especial para otras enfermedades y trastornos especificados"
+    },
+    {
+      "code": "K591",
+      "display": "Diarrea funcional"
+    },
+    {
+      "code": "R252",
+      "display": "Calambres y espasmos"
+    },
+    {
+      "code": "K579",
+      "display": "Enfermedad diverticular del intestino, parte no especificada, sin perforacion ni absceso"
+    },
+    {
+      "code": "H920",
+      "display": "Otalgia"
+    },
+    {
+      "code": "F509",
+      "display": "Trastorno de la ingestion de alimentos, no especificado"
+    },
+    {
+      "code": "K070",
+      "display": "Anomalias evidentes del tamaño de los maxilares"
+    },
+    {
+      "code": "R001",
+      "display": "Bradicardia, no especificada"
+    },
+    {
+      "code": "M706",
+      "display": "Bursitis del trocanter"
+    },
+    {
+      "code": "M759",
+      "display": "Lesiones del hombro, no especificada"
+    },
+    {
+      "code": "R568",
+      "display": "Otras convulsiones y las no especificadas"
+    },
+    {
+      "code": "M201",
+      "display": "Hallux valgus (adquirido)"
+    },
+    {
+      "code": "D729",
+      "display": "Trastornos de los leucocitos, no especificado"
+    },
+    {
+      "code": "M158",
+      "display": "Otras poliartrosis"
+    },
+    {
+      "code": "H669",
+      "display": "Otitis media, no especificada"
+    },
+    {
+      "code": "F334",
+      "display": "Trastorno depresivo recurrente actualmente en remision"
+    },
+    {
+      "code": "J300",
+      "display": "Rinitis vasomotora"
+    },
+    {
+      "code": "K061",
+      "display": "Hiperplasia gingival"
+    },
+    {
+      "code": "J329",
+      "display": "Sinusitis cronica, no especificada"
+    },
+    {
+      "code": "N644",
+      "display": "Mastodinia"
+    },
+    {
+      "code": "E440",
+      "display": "Desnutricion proteicocalorica moderada"
+    },
+    {
+      "code": "M770",
+      "display": "Epicondilitis media"
+    },
+    {
+      "code": "Z538",
+      "display": "Procedimiento no realizado por otras razones"
+    },
+    {
+      "code": "E46X",
+      "display": "Desnutricion proteicocalorica , no especificada"
+    },
+    {
+      "code": "Z208",
+      "display": "Contacto con y exposicion a otras enfermedades transmisibles"
+    },
+    {
+      "code": "I702",
+      "display": "Aterosclerosis de las arterias de los miembros"
+    },
+    {
+      "code": "Z298",
+      "display": "Otras medidas profilacticas especificadas"
+    },
+    {
+      "code": "F819",
+      "display": "Trastorno del desarrollo de las habilidades escolares, no especificado"
+    },
+    {
+      "code": "B49X",
+      "display": "Micosis, no especificada"
+    },
+    {
+      "code": "R072",
+      "display": "Dolor precordial"
+    },
+    {
+      "code": "N209",
+      "display": "Calculo urinario, no especificado"
+    },
+    {
+      "code": "M541",
+      "display": "Radiculopatia"
+    },
+    {
+      "code": "N319",
+      "display": "Disfuncion neuromuscular de la vejiga, no especificada"
+    },
+    {
+      "code": "J040",
+      "display": "Laringitis aguda"
+    },
+    {
+      "code": "S800",
+      "display": "Contusion de la rodilla"
+    },
+    {
+      "code": "H547",
+      "display": "Disminucion de la agudeza visual, sin especificacion"
+    },
+    {
+      "code": "R31X",
+      "display": "Hematuria, no especificada"
+    },
+    {
+      "code": "F410",
+      "display": "Trastorno de panico [ansiedad paroxistica episodica]"
+    },
+    {
+      "code": "K006",
+      "display": "Alteraciones en la erupcion dentaria"
+    },
+    {
+      "code": "Q380",
+      "display": "Malformaciones congenitas de los labios, no clasificadas en otra parte"
+    },
+    {
+      "code": "M940",
+      "display": "Sindrome de la articulacion condrocostal [tietze]"
+    },
+    {
+      "code": "C73X",
+      "display": "Tumor maligno de la glandula tiroides"
+    },
+    {
+      "code": "B353",
+      "display": "Tiña del pie [tinea pedis]"
+    },
+    {
+      "code": "E748",
+      "display": "Otros trastornos especificados del metabolismo de los carbohidratos"
+    },
+    {
+      "code": "H905",
+      "display": "Hipoacusia neurosensorial, sin otra especificacion"
+    },
+    {
+      "code": "K056",
+      "display": "Enfermedad de periodonto, no especificada"
+    },
+    {
+      "code": "L031",
+      "display": "Celulitis de otras partes de los miembros"
+    },
+    {
+      "code": "L259",
+      "display": "Dermatitis de contacto, forma y causa no especificadas"
+    },
+    {
+      "code": "M659",
+      "display": "Sinovitis y tenosinovitis, no especificada"
+    },
+    {
+      "code": "F919",
+      "display": "Trastorno de la conducta, no especificado"
+    },
+    {
+      "code": "M169",
+      "display": "Coxartrosis, no especificada"
+    },
+    {
+      "code": "L989",
+      "display": "Trastorno de la piel y del tejido subcutaneo, no especificado"
+    },
+    {
+      "code": "I420",
+      "display": "Cardiomiopatia dilatada"
+    },
+    {
+      "code": "M815",
+      "display": "Osteoporosis idiopatica, sin fractura patologica"
+    },
+    {
+      "code": "F82X",
+      "display": "Trastorno especifico del desarrollo de la funcion motriz"
+    },
+    {
+      "code": "L218",
+      "display": "Otras dermatitis seborreicas"
+    },
+    {
+      "code": "B24X",
+      "display": "Enfermedad por virus de la inmunodeficiencia humana (vih), sin otra especificacion"
+    },
+    {
+      "code": "I516",
+      "display": "Enfermedad cardiovascular, no especificada"
+    },
+    {
+      "code": "L910",
+      "display": "Cicatriz queloide"
+    },
+    {
+      "code": "Z731",
+      "display": "Problemas relacionados con la acentuacion de rasgos de la personalidad"
+    },
+    {
+      "code": "F000",
+      "display": "Demencia en la enfermedad de alzheimer, de comienzo temprano (g30.0†)"
+    },
+    {
+      "code": "K052",
+      "display": "Periodontitis aguda"
+    },
+    {
+      "code": "L80X",
+      "display": "Vitiligo"
+    },
+    {
+      "code": "L649",
+      "display": "Alopecia androgena, no especificada"
+    },
+    {
+      "code": "F418",
+      "display": "Otros trastornos de ansiedad especificados"
+    },
+    {
+      "code": "M752",
+      "display": "Tendinitis de biceps"
+    },
+    {
+      "code": "N926",
+      "display": "Menstruacion irregular, no especificada"
+    },
+    {
+      "code": "M892",
+      "display": "Otros trastornos del desarrollo y crecimiento oseo"
+    },
+    {
+      "code": "H82X",
+      "display": "Sindromes vertiginosos en enfermedades clasificadas en otra parte"
+    },
+    {
+      "code": "J441",
+      "display": "Enfermedad pulmonar obstructiva cronica con exacerbacion aguda, no especificada"
+    },
+    {
+      "code": "H251",
+      "display": "Catarata senil nuclear"
+    },
+    {
+      "code": "G250",
+      "display": "Temblor esencial"
+    },
+    {
+      "code": "R53X",
+      "display": "Malestar y fatiga"
+    },
+    {
+      "code": "L509",
+      "display": "Urticaria, no especificada"
+    },
+    {
+      "code": "F801",
+      "display": "Trastorno del lenguaje expresivo"
+    },
+    {
+      "code": "L708",
+      "display": "Otros acnes"
+    },
+    {
+      "code": "Z539",
+      "display": "Procedimiento no realizado por razon no especificada"
+    },
+    {
+      "code": "I120",
+      "display": "Enfermedad renal hipertensiva con insuficiencia renal"
+    },
+    {
+      "code": "J018",
+      "display": "Otras sinusitis agudas"
+    },
+    {
+      "code": "L600",
+      "display": "Uña encarnada"
+    },
+    {
+      "code": "L299",
+      "display": "Prurito, no especificado"
+    },
+    {
+      "code": "H162",
+      "display": "Queratoconjuntivitis"
+    },
+    {
+      "code": "E889",
+      "display": "Trastorno metabolico, no especificado"
+    },
+    {
+      "code": "Z349",
+      "display": "Supervision de embarazo normal no especificado"
+    },
+    {
+      "code": "J458",
+      "display": "Asma mixta"
+    },
+    {
+      "code": "M809",
+      "display": "Osteoporosis no especificada, con fractura patologica"
+    },
+    {
+      "code": "R15X",
+      "display": "Incontinencia fecal"
+    },
+    {
+      "code": "H024",
+      "display": "Blefaroptosis"
+    },
+    {
+      "code": "R000",
+      "display": "Taquicardia, no especificada"
+    },
+    {
+      "code": "M546",
+      "display": "Dolor en la columna dorsal"
+    },
+    {
+      "code": "A084",
+      "display": "Infeccion intestinal viral, sin otra especificacion"
+    },
+    {
+      "code": "N393",
+      "display": "Incontinencia urinaria por tension"
+    },
+    {
+      "code": "K046",
+      "display": "Absceso periapical con fistula"
+    },
+    {
+      "code": "M548",
+      "display": "Otras dorsalgias"
+    },
+    {
+      "code": "M828",
+      "display": "Osteoporosis en otras enfermedades clasificadas en otra parte"
+    },
+    {
+      "code": "M233",
+      "display": "Otros trastornos de los meniscos"
+    },
+    {
+      "code": "R040",
+      "display": "Epistaxis"
+    },
+    {
+      "code": "J312",
+      "display": "Faringitis cronica"
+    },
+    {
+      "code": "M753",
+      "display": "Tendinitis calcificante del hombro"
+    },
+    {
+      "code": "I868",
+      "display": "Varices en otros sitios especificados"
+    },
+    {
+      "code": "B977",
+      "display": "Papilomavirus como causa de enfermedades clasificadas en otros capitulos"
+    },
+    {
+      "code": "Z635",
+      "display": "Problemas relacionados con la ruptura familiar por separacion o divorcio"
+    },
+    {
+      "code": "H023",
+      "display": "Blefarocalasia"
+    },
+    {
+      "code": "D696",
+      "display": "Trombocitopenia no especificada"
+    },
+    {
+      "code": "Z519",
+      "display": "Atencion medica, no especificada"
+    },
+    {
+      "code": "F019",
+      "display": "Demencia vascular, no especificada"
+    },
+    {
+      "code": "N484",
+      "display": "Impotencia de origen organico"
+    },
+    {
+      "code": "H250",
+      "display": "Catarata senil incipiente"
+    },
+    {
+      "code": "Q665",
+      "display": "Pie plano congenito"
+    },
+    {
+      "code": "R740",
+      "display": "Elevacion de los niveles de transaminasas o deshidrogenasa lactica [dhl]"
+    },
+    {
+      "code": "E221",
+      "display": "Hiperprolactinemia"
+    },
+    {
+      "code": "F339",
+      "display": "Trastorno depresivo recurrente, no especificado"
+    },
+    {
+      "code": "Z014",
+      "display": "Examen ginecologico (general) (de rutina)"
+    },
+    {
+      "code": "R600",
+      "display": "Edema localizado"
+    },
+    {
+      "code": "M329",
+      "display": "Lupus eritematoso sistemico, sin otra especificacion"
+    },
+    {
+      "code": "L308",
+      "display": "Otras dermatitis especificadas"
+    },
+    {
+      "code": "Z600",
+      "display": "Problemas relacionados con el ajuste a las transiciones del ciclo vital"
+    },
+    {
+      "code": "K802",
+      "display": "Calculo de la vesicula biliar sin colecistitis"
+    },
+    {
+      "code": "M942",
+      "display": "Condromalacia"
+    },
+    {
+      "code": "L303",
+      "display": "Dermatitis infecciosa"
+    },
+    {
+      "code": "R002",
+      "display": "Palpitaciones"
+    },
+    {
+      "code": "L210",
+      "display": "Seborrea capitis"
+    },
+    {
+      "code": "Z121",
+      "display": "Examen de pesquisa especial para tumor de intestino"
+    },
+    {
+      "code": "Z011",
+      "display": "Examen de oidos y de la audicion"
+    },
+    {
+      "code": "D508",
+      "display": "Otras anemias por deficiencia de hierro"
+    },
+    {
+      "code": "E148",
+      "display": "Diabetes mellitus, no especificada con complicaciones no especificadas"
+    },
+    {
+      "code": "G430",
+      "display": "Migraña sin aura [migraña comun]"
+    },
+    {
+      "code": "N761",
+      "display": "Vaginitis subaguda y cronica"
+    },
+    {
+      "code": "J352",
+      "display": "Hipertrofia de las adenoides"
+    },
+    {
+      "code": "H579",
+      "display": "Trastorno del ojo y sus anexos, no especificado"
+    },
+    {
+      "code": "L720",
+      "display": "Quiste epidermico"
+    },
+    {
+      "code": "L97X",
+      "display": "Ulcera del miembro inferior, no clasificada en otra parte"
+    },
+    {
+      "code": "N946",
+      "display": "Dismenorrea, no especificada"
+    },
+    {
+      "code": "H408",
+      "display": "Otros glaucomas"
+    },
+    {
+      "code": "K047",
+      "display": "Absceso periapical sin fistula"
+    },
+    {
+      "code": "M818",
+      "display": "Otras osteoporosis, sin fractura patologica"
+    },
+    {
+      "code": "Z209",
+      "display": "Contacto con y exposicion a enfermedades transmisibles no especificadas"
+    },
+    {
+      "code": "L409",
+      "display": "Psoriasis, no especificada"
+    },
+    {
+      "code": "L811",
+      "display": "Cloasma"
+    },
+    {
+      "code": "Z504",
+      "display": "Psicoterapia, no clasificada en otra parte"
+    },
+    {
+      "code": "S460",
+      "display": "Traumatismo de tendon del manguito rotatorio del hombro"
+    },
+    {
+      "code": "K002",
+      "display": "Anomalias del tamaño y de la forma del diente"
+    },
+    {
+      "code": "H360",
+      "display": "Retinopatia diabetica (e10-e14† con cuarto caracter comun .3)"
+    },
+    {
+      "code": "N870",
+      "display": "Displasia cervical leve"
+    },
+    {
+      "code": "J440",
+      "display": "Enfermedad pulmonar obstructiva cronica con infeccion aguda de las vias respiratorias inferiores"
+    },
+    {
+      "code": "I64X",
+      "display": "Accidente vascular encefalico agudo, no especificado como hemorragico o isquemico"
+    },
+    {
+      "code": "D638",
+      "display": "Anemia en otras enfermedades cronicas clasificadas en otra parte"
+    },
+    {
+      "code": "F529",
+      "display": "Disfuncion sexual, no ocasionada por trastorno ni por enfermedad organicos, no especificada"
+    },
+    {
+      "code": "M654",
+      "display": "Tenosinovitis de estiloides radial [de quervain]"
+    },
+    {
+      "code": "Z501",
+      "display": "Otras terapias fisicas"
+    },
+    {
+      "code": "M705",
+      "display": "Otras bursitis de la rodilla"
+    },
+    {
+      "code": "I252",
+      "display": "Infarto antiguo del miocardio"
+    },
+    {
+      "code": "B359",
+      "display": "Dermatofitosis, no especificada"
+    },
+    {
+      "code": "Z100",
+      "display": "Examen de salud ocupacional"
+    },
+    {
+      "code": "M518",
+      "display": "Otros trastornos especificados de los discos intervertebrales"
+    }
+  ],
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2024-09-03T23:23:18.788+00:00"
+  },
+  "language": "es",
+  "experimental": false,
+  "date": "2023-07-30",
+  "publisher": "WHO",
+  "contact": [
+    {
+      "name": "World Health Organization (WHO)",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.who.int/classifications/classification-of-diseases"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Colombia",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7co.org/"
+        },
+        {
+          "system": "phone",
+          "value": "+57(320) 230-6178"
+        },
+        {
+          "system": "email",
+          "value": "info@hl7co.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CO",
+          "system": "urn:iso:std:iso:3166:-2",
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "purpose": "This code system is used as a nomenclature of International Statistical Classification of Diseases and Related Health Problems - Version 10.\r\n\r\n[ES: Este sistema de codificación se utiliza como nomenclador de Clasificación Estadística Internacional de Enfermedades y Problemas Relacionados con la Salud - Versión 10.]",
+  "copyright": "WHO, CCBY4.0 2006+",
+  "caseSensitive": true
+}
