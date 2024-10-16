@@ -1,0 +1,164 @@
+{
+    "resourceType": "Patient",
+    "id": "51a6fc62-cb39-4eb1-8c43-9ce69ff91ccc",
+    "meta": {
+      "profile": [
+        "http://co.fhir.guide/core/StructureDefinition/PatientCO"
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionPatientNationality",
+        "valueCoding": {
+          "system": "http://co.fhir.guide/terminology/CodeSystem/ISO31661",
+          "code": "170",
+          "display": "Colombia"
+        }
+      },
+      {
+        "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionPatientEthnicity",
+        "valueCoding": {
+          "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianEthnicGroup",
+          "code": "99",
+          "display": "Ninguna de las anteriores"
+        }
+      },
+      {
+        "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionPatientPopulationGroup",
+        "valueCoding": {
+          "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianPopulationGroup",
+          "code": "GP_DESMOVI",
+          "display": "Grupo Poblacional - Desmovilizados"
+        }
+      },
+      {
+        "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionPatientDisability",
+        "valueCoding": {
+          "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianDisabilityClassification",
+          "code": "08",
+          "display": "Sin discapacidad"
+        }
+      },
+      {
+        "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionPatientGenderIdentity",
+        "valueCoding": {
+          "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianGenderIdentity",
+          "code": "01",
+          "display": "Masculino"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "PN",
+              "display": "Person number"
+            },
+            {
+              "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianPersonIdentifiers",
+              "code": "CC",
+              "display": "Cédula ciudadanía"
+            }
+          ]
+        },
+        "period": {
+          "start": "2003-09-18"
+        },
+        "id": "NationalPersonIdentifier-0",
+        "use": "official",
+        "value": "279871234"
+      }
+    ],
+    "name": [
+      {
+        "given": [
+          "Gustavo",
+          "Iván"
+        ],
+        "use": "official",
+        "family": "Duque Urrego",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionFathersFamilyName",
+              "valueString": "Duque"
+            },
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionMothersFamilyName",
+              "valueString": "Urrego"
+            }
+          ]
+        }
+      },
+      {
+        "use": "usual",
+        "text": "Gustavo Duque"
+      }
+    ],
+    "telecom": [
+      {
+        "id": "TelecomMobile-0",
+        "system": "phone",
+        "use": "mobile",
+        "value": "+57(300)222-2222"
+      },
+      {
+        "id": "TelecomEmail-0",
+        "system": "email",
+        "value": "cesar.rodriguez@example.com"
+      }
+    ],
+    "address": [
+      {
+        "id": "HomeAddress-0",
+        "use": "home",
+        "type": "physical",
+        "text": "Cra. 7A #128 48, Bella Suiza",
+        "city": "Bogotá D.C.",
+        "_city": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaMunicipality",
+              "valueCoding": {
+                "code": "11001",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "district": "Usaquén",
+        "state": "Bogotá D.C.",
+        "_state": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaDepartment",
+              "valueCoding": {
+                "code": "11",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "postalCode": "110120",
+        "country": "CO"
+      }
+    ],
+    "maritalStatus": {
+      "coding": [
+        {
+          "code": "M",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "display": "Married"
+        }
+      ],
+      "text": "Casado(a)"
+    },
+    "active": true,
+    "gender": "male",
+    "birthDate": "1985-09-17",
+    "deceasedBoolean": false
+  }
+  
