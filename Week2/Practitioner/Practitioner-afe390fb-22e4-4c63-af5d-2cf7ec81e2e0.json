@@ -1,0 +1,182 @@
+{
+    "resourceType": "Practitioner",
+    "id": "afe390fb-22e4-4c63-af5d-2cf7ec81e2e0",
+    "meta": {
+      "profile": [
+        "http://co.fhir.guide/core/StructureDefinition/PractitionerCO"
+      ]
+    },
+    "identifier": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "PN",
+              "display": "Person number"
+            },
+            {
+              "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianPersonIdentifiers",
+              "code": "CC",
+              "display": "Cédula ciudadanía"
+            }
+          ]
+        },
+        "period": {
+          "start": "1999-11-19"
+        },
+        "id": "NationalPersonIdentifier-0",
+        "use": "official",
+        "value": "7649328645"
+      }
+    ],
+    "name": [
+      {
+        "given": [
+          "Diego",
+          "Alberto"
+        ],
+        "prefix": [
+          "Dr"
+        ],
+        "suffix": [
+          "MD"
+        ],
+        "use": "official",
+        "family": "Espinoza Silva",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionFathersFamilyName",
+              "valueString": "Espinoza"
+            },
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionMothersFamilyName",
+              "valueString": "Silva"
+            }
+          ]
+        }
+      }
+    ],
+    "telecom": [
+      {
+        "id": "TelecomMobile-0",
+        "system": "phone",
+        "use": "mobile",
+        "value": "+57(333)222-1111"
+      },
+      {
+        "id": "TelecomEmail-0",
+        "system": "email",
+        "value": "gregorio.casas@example.com"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "physical",
+        "text": "Cl. 7 #40 00, Chapinero",
+        "city": "Bogotá D.C.",
+        "_city": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaMunicipality",
+              "valueCoding": {
+                "code": "11001",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "district": "Chapinero",
+        "state": "Bogotá D.C.",
+        "_state": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaDepartment",
+              "valueCoding": {
+                "code": "11",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "postalCode": "11001",
+        "country": "CO"
+      }
+    ],
+    "qualification": [
+      {
+        "identifier": [
+          {
+            "assigner": {
+              "type": "Organization",
+              "display": "MinSalud"
+            },
+            "use": "official",
+            "system": "https://web.sispro.gov.co/THS/",
+            "type": {
+              "coding": [
+                {
+                  "code": "LN",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "display": "License number"
+                }
+              ]
+            },
+            "value": "7649328645"
+          }
+        ],
+        "period": {
+          "start": "2007-09-23"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://co.fhir.guide/terminology/CodeSystem/RETHUSqualification",
+              "code": "003",
+              "display": "Medicina"
+            }
+          ]
+        }
+      },
+      {
+        "identifier": [
+          {
+            "assigner": {
+              "type": "Organization",
+              "display": "MinSalud"
+            },
+            "use": "official",
+            "system": "https://web.sispro.gov.co/THS/",
+            "type": {
+              "coding": [
+                {
+                  "code": "LN",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "display": "License number"
+                }
+              ]
+            },
+            "value": "7649328645"
+          }
+        ],
+        "period": {
+          "start": "2013-02-14"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://co.fhir.guide/terminology/CodeSystem/RETHUSqualification",
+              "code": "M1304",
+              "display": "Enfermedades infecciosas"
+            }
+          ]
+        }
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "birthDate": "1982-11-19"
+  }
+  
