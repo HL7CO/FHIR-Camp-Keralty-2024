@@ -1,0 +1,71 @@
+{
+  "resourceType": "Condition",
+  "id": "",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "",
+        "display": ""
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "",
+        "display": ""
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        }
+      ]
+    }
+  ],
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "",
+        "display": ""
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "code": "",
+        "display": ""
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/"
+  },
+  "encounter": {
+    "reference": "Encounter/"
+  },
+  "onsetDateTime": "",
+  "abatementDateTime": "",
+  "recordedDate": "",
+  "recorder": {
+    "reference": "Practitioner/"
+  },
+  "asserter": {
+    "reference": "Practitioner/"
+  },
+  "note": [
+    {
+      "text": ""
+    }
+  ]
+}
