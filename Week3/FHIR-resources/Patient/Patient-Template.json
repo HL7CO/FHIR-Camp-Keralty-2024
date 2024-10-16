@@ -1,0 +1,112 @@
+{
+    "resourceType": "Patient",
+    "id": "",
+    "identifier": [
+      {
+        "id": "NationalPersonIdentifier-0",
+        "use": "official",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "PN",
+              "display": "Person number"
+            },
+            {
+              "system": "http://co.fhir.guide/terminology/CodeSystem/ColombianPersonIdentifiers",
+              "code": "",
+              "display": ""
+            }
+          ]
+        },
+        "value": ""
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "given": [
+          "",
+          ""
+        ],
+        "use": "official",
+        "family": "",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionFathersFamilyName",
+              "valueString": ""
+            },
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionMothersFamilyName",
+              "valueString": ""
+            }
+          ]
+        }
+      },
+      {
+        "use": "usual",
+        "text": ""
+      }
+    ],
+    "telecom": [
+      {
+        "id": "TelecomMobile-0",
+        "system": "phone",
+        "value": "+57(300)222-2222",
+        "use": "mobile"
+      },
+      {
+        "id": "TelecomEmail-0",
+        "system": "email",
+        "value": ""
+      }
+    ],
+    "gender": "",
+    "birthDate": "",
+    "address": [
+      {
+        "id": "HomeAddress-0",
+        "use": "home",
+        "type": "physical",
+        "text": "",
+        "city": "",
+        "_city": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaMunicipality",
+              "valueCoding": {
+                "code": "",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "district": "",
+        "state": "",
+        "_state": {
+          "extension": [
+            {
+              "url": "http://co.fhir.guide/core/StructureDefinition/ExtensionDivipolaDepartment",
+              "valueCoding": {
+                "code": "",
+                "system": "http://co.fhir.guide/terminology/CodeSystem/DIVIPOLA"
+              }
+            }
+          ]
+        },
+        "postalCode": "",
+        "country": "CO"
+      }
+    ],
+    "maritalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "",      
+          "display": ""
+        }
+      ]
+    }
+  }
+  
