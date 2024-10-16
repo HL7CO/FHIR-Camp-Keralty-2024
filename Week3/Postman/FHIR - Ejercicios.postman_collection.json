@@ -11,7 +11,26 @@
 			"name": "1. Patient",
 			"item": [
 				{
-					"name": "1.1. Crear Paciente",
+					"name": "1.1. Leer Paciente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Patient",
+								"92a8e277-af20-4854-a3fb-02cbe9fb8d49"
+							]
+						},
+						"description": "Leer información de un paciente"
+					},
+					"response": []
+				},
+				{
+					"name": "1.2. Crear Paciente",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -39,7 +58,7 @@
 					"response": []
 				},
 				{
-					"name": "1.2. Leer Paciente",
+					"name": "1.3. Leer Paciente",
 					"request": {
 						"method": "GET",
 						"header": [],
