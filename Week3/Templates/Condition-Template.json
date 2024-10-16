@@ -51,9 +51,6 @@
   "subject": {
     "reference": "Patient/"
   },
-  "encounter": {
-    "reference": "Encounter/"
-  },
   "onsetDateTime": "",
   "abatementDateTime": "",
   "recordedDate": "",
