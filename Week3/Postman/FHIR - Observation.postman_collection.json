@@ -229,6 +229,141 @@
 						"description": "Transacción FHIR para crear múltiples recursos tipo Observation, que registran los signos vitales de un paciente"
 					},
 					"response": []
+				},
+				{
+					"name": "2.2. Buscar signos vitales",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Observation?category=vital-signs&patient=XXXXX",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "vital-signs"
+								},
+								{
+									"key": "patient",
+									"value": "XXXXX"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.3. Buscar Presión Sanguínea",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Observation?code=85354-9&patient=XXXX",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "85354-9"
+								},
+								{
+									"key": "patient",
+									"value": "XXXX"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.3. Buscar Temperatura Corporal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Observation?code=8310-5&patient=XXXX",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "8310-5"
+								},
+								{
+									"key": "patient",
+									"value": "XXXX"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.3. Buscar Frecuencia Cardiáca",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Observation?code=8867-4&patient=XXXX",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "8867-4"
+								},
+								{
+									"key": "patient",
+									"value": "XXXX"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.3. Buscar Frecuencia Respiratoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{fhirurl}}/Observation?code=9279-1&patient=XXXX",
+							"host": [
+								"{{fhirurl}}"
+							],
+							"path": [
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "9279-1"
+								},
+								{
+									"key": "patient",
+									"value": "XXXX"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
