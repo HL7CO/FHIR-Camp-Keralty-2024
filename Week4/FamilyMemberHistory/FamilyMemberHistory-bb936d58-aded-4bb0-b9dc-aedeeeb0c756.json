@@ -1,0 +1,64 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "bb936d58-aded-4bb0-b9dc-aedeeeb0c756",
+  "meta": {
+    "profile": [
+      "http://co.fhir.guide/StructureDefinition/FamilyMemberHistoryCO"
+    ]
+  },
+  "relationship": {
+    "coding": [
+      {
+        "code": "FTH",
+        "system": "http://co.fhir.guide/CodeSystem/FamilyMember",
+        "display": "father"
+      }
+    ],
+    "text": "Padre"
+  },
+  "sex": {
+    "coding": [
+      {
+        "code": "male",
+        "system": "http://hl7.org/fhir/administrative-gender",
+        "display": "Male"
+      }
+    ],
+    "text": "Masculino"
+  },
+  "note": [
+    {
+      "authorReference": {
+        "reference": "Practitioner/feb1e63b-d4ed-4b53-9d1f-8d9efa339b0a"
+      },
+      "time": "2024-06-19T14:03:28-05:00",
+      "text": "Veniam culpa velit ex aute sint aute enim adipisicing ut proident. Irure velit eu aliquip et cillum deserunt laborum irure dolor non do consectetur minim voluptate. Dolor esse enim incididunt consectetur proident laborum dolor tempor veniam sit officia ullamco qui consectetur. Nisi ea cupidatat nulla elit qui pariatur anim elit occaecat dolore ut sunt. Ad nostrud consequat labore consectetur sint incididunt qui."
+    }
+  ],
+  "condition": [
+    {
+      "onsetAge": {
+        "value": 67,
+        "system": "http://unitsofmeasure.org",
+        "unit": "yr",
+        "code": "a"
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "Z034",
+            "system": "http://hl7.org/fhir/sid/icd-10",
+            "display": "Observacion por sospecha de infarto de miocardio"
+          }
+        ]
+      },
+      "contributedToDeath": false
+    }
+  ],
+  "status": "partial",
+  "patient": {
+    "reference": "Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49"
+  },
+  "name": "Alberto Mora",
+  "deceasedBoolean": true
+}

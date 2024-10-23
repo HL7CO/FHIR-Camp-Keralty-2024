@@ -1,0 +1,26 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "764efee4-9fbb-4937-a711-94182c542996",
+  "meta": {
+    "profile": [
+      "http://co.fhir.guide/StructureDefinition/FamilyMemberHistoryCO"
+    ]
+  },
+  "relationship": {
+    "text": "Madre"
+  },
+  "sex": {
+    "text": "Femenino"
+  },
+  "note": [
+    {
+      "text": "Dolore amet occaecat elit ut minim duis nulla aliqua labore. Culpa qui enim officia excepteur magna aute quis labore mollit. Eu magna officia ullamco sit ea tempor. Nisi sunt ipsum consectetur nostrud deserunt. Voluptate magna culpa adipisicing deserunt ut."
+    }
+  ],
+  "status": "partial",
+  "patient": {
+    "reference": "Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49"
+  },
+  "name": "Mercedez Jaramillo",
+  "deceasedBoolean": true
+}
