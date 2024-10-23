@@ -1,0 +1,71 @@
+{
+    "resourceType": "AllergyIntolerance",
+    "id": "e32678f9-b295-4d79-b9b3-8bab463eca3b",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "1269425007",
+          "system": "http://snomed.info/sct",
+          "display": "alergia a gluten"
+        }
+      ],
+      "text": "alergia a gluten"
+    },
+    "note": [
+      {
+        "text": "Veniam sit nulla amet ut anim commodo aliqua ipsum."
+      }
+    ],
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "code": "21522001",
+                "system": "http://snomed.info/sct",
+                "display": "dolor abdominal"
+              }
+            ],
+            "text": "dolor abdominal"
+          }
+        ]
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "criticality": "low",
+    "patient": {
+      "reference": "Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49"
+    },
+    "encounter": {
+      "reference": "Encounter/47b7e0b5-25cc-43d3-a3a8-ee34ff1687fe"
+    },
+    "recordedDate": "2024-02-19T09:30:00-05:00",
+    "recorder": {
+      "reference": "Practitioner/feb1e63b-d4ed-4b53-9d1f-8d9efa339b0a"
+    },
+    "asserter": {
+      "reference": "Practitioner/feb1e63b-d4ed-4b53-9d1f-8d9efa339b0a"
+    },
+    "lastOccurrence": "2024-02-17T14:24:00-05:00"
+  }
+  
