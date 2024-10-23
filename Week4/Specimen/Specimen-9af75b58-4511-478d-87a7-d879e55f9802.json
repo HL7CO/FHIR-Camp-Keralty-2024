@@ -1,0 +1,75 @@
+{
+  "resourceType": "Specimen",
+  "id": "9af75b58-4511-478d-87a7-d879e55f9802",
+  "identifier": [
+    {
+      "system": "http://hospital.example.org/identifiers/collections",
+      "value": "23234352356"
+    }
+  ],
+  "accessionIdentifier": {
+    "system": "http://lab.example.org/specimens/2011",
+    "value": "X352356"
+  },
+  "collection": {
+    "quantity": {
+      "value": 6,
+      "unit": "mL"
+    },
+    "bodySite": {
+      "coding": [
+        {
+          "code": "49852007",
+          "system": "http://snomed.info/sct",
+          "display": "Structure of median cubital vein (body structure)"
+        }
+      ],
+      "text": "Right median cubital vein"
+    },
+    "collector": {
+      "reference": "Practitioner/feb1e63b-d4ed-4b53-9d1f-8d9efa339b0a"
+    },
+    "collectedDateTime": "2011-05-30T06:15:00Z"
+  },
+  "container": [
+    {
+      "identifier": [
+        {
+          "value": "48736-15394-75465"
+        }
+      ],
+      "type": {
+        "text": "Vacutainer"
+      },
+      "capacity": {
+        "value": 10,
+        "unit": "mL"
+      },
+      "specimenQuantity": {
+        "value": 6,
+        "unit": "mL"
+      },
+      "description": "Green Gel tube"
+    }
+  ],
+  "note": [
+    {
+      "text": "Specimen is grossly lipemic"
+    }
+  ],
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "code": "122555007",
+        "system": "http://snomed.info/sct",
+        "display": "Venous blood specimen"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49",
+    "display": "Mónica Mora"
+  },
+  "receivedTime": "2023-09-25T08:30:00-05:00"
+}
