@@ -1,0 +1,43 @@
+{
+    "resourceType": "Appointment",
+    "id": "8eea190f-95ba-450d-868c-5109307baae1",
+    "status": "booked",
+    "start": "2021-10-01T10:00:00Z",
+    "end": "2021-10-01T10:30:00Z",
+    "participant": [
+        {
+            "type": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                            "code": "SBJ",
+                            "display": "subject"
+                        }
+                    ]
+                }
+            ],
+            "actor": {
+                "reference": "Patient/22318da3-594a-42ed-81bd-c3cd24335bf2"
+            },
+            "status": "accepted"
+        },
+        {
+            "type": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                            "code": "ATND",
+                            "display": "attendee"
+                        }
+                    ]
+                }
+            ],
+            "actor": {
+                "reference": "Practitioner/875f6d76-59eb-4867-a632-f1feddee51cb"
+            },
+            "status": "accepted"
+        }
+    ],
+}
