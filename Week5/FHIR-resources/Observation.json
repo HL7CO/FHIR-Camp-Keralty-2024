@@ -1,0 +1,33 @@
+{
+    "resourceType": "Observation",
+    "id": "7f186dd5-36ef-4abd-a930-f80074a947c6",
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "97055-8",
+                "display": "Finnish diabetes risk score panel FINDRISC"
+            }
+        ]
+    },
+    "valueInteger": 15,
+    "note": [
+        {
+            "text": "This is the result of the Finnish diabetes risk score panel FINDRISC"
+        }
+    ],
+    "component": [
+        {
+            "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "97062-4",
+                "display": "Have you ever been found to have high blood glucose (e.g. in a health examination, during an illness, during pregnancy)?"
+            }
+        ]
+    },
+    "valueBoolean": true
+        }
+    ]
+}
