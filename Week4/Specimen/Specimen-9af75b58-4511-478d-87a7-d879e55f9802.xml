@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specimen xmlns="http://hl7.org/fhir">
+    <id value="9af75b58-4511-478d-87a7-d879e55f9802"/>
+    <identifier>
+        <system value="http://hospital.example.org/identifiers/collections"/>
+        <value value="23234352356"/>
+    </identifier>
+    <accessionIdentifier>
+        <system value="http://lab.example.org/specimens/2011"/>
+        <value value="X352356"/>
+    </accessionIdentifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="122555007"/>
+            <display value="Venous blood specimen"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/92a8e277-af20-4854-a3fb-02cbe9fb8d49"/>
+        <display value="Mónica Mora"/>
+    </subject>
+    <receivedTime value="2023-09-25T08:30:00-05:00"/>
+    <collection>
+        <collector>
+            <reference value="Practitioner/feb1e63b-d4ed-4b53-9d1f-8d9efa339b0a"/>
+        </collector>
+        <collectedDateTime value="2011-05-30T06:15:00Z"/>
+        <quantity>
+            <value value="6"/>
+            <unit value="mL"/>
+        </quantity>
+        <bodySite>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="49852007"/>
+                <display value="Structure of median cubital vein (body structure)"/>
+            </coding>
+            <text value="Right median cubital vein"/>
+        </bodySite>
+    </collection>
+    <container>
+        <identifier>
+            <value value="48736-15394-75465"/>
+        </identifier>
+        <description value="Green Gel tube"/>
+        <type>
+            <text value="Vacutainer"/>
+        </type>
+        <capacity>
+            <value value="10"/>
+            <unit value="mL"/>
+        </capacity>
+        <specimenQuantity>
+            <value value="6"/>
+            <unit value="mL"/>
+        </specimenQuantity>
+    </container>
+    <note>
+        <text value="Specimen is grossly lipemic"/>
+    </note>
+</Specimen>
