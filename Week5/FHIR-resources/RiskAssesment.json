@@ -1,0 +1,31 @@
+{
+    "resourceType": "RiskAssessment",
+    "basis": [
+        {
+            "reference": "Observation/7f186dd5-36ef-4abd-a930-f80074a947c6"
+        },
+        {
+            "reference": "QuestionnaireResponse/7f186dd5-36ef-4abd-a930-f80074a947c6"
+        }
+    ],
+    "prediction": [
+        {
+            "outcome": {
+                "coding": [
+                    {
+                        "system": "http://example.org/resultados-FINDRISC",
+                        "code": "M",
+                        "display": "Medio"
+                    }
+                ]
+            },
+            "relativeRisk": 15,
+        }
+    ],
+    "mitigation": "Coma más frutas y verduras",
+    "note": [
+        {
+            "text": "El paciente tiene un riesgo medio de diabetes"
+        }
+    ]
+}
