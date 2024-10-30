@@ -1,0 +1,78 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "item": [
+        {
+            "linkId": "Pregunta 1",
+            "text": "Have you ever been found to have high blood glucose (e.g. in a health examination, during an illness, during pregnancy)?",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 2",
+            "text": "If yes, how many times?",
+            "answer": [
+                {
+                    "valueInteger": 1
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 3",
+            "text": "What was the highest level?",
+            "answer": [
+                {
+                    "valueInteger": 200
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 4",
+            "text": "What was the date of the last test?",
+            "answer": [
+                {
+                    "valueDate": "2020-01-01"
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 5",
+            "text": "What was your weight at that time?",
+            "answer": [
+               {
+                "valueReference": {
+                    "reference": "Observation/7f186dd5-36ef-4abd-a930-f80074a947c6"
+                }
+               }
+        },
+        {
+            "linkId": "Pregunta 7",
+            "text": "What was your waist circumference at that time?",
+            "answer": [
+                {
+                    "valueDecimal": 90
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 8",
+            "text": "What was your hip circumference at that time?",
+            "answer": [
+                {
+                    "valueDecimal": 100
+                }
+            ]
+        },
+        {
+            "linkId": "Pregunta 9",
+            "text": "What was your blood pressure at that time?",
+            "answer": [
+                {
+                    "valueString": "120/80"
+                }
+            ]
+        }
+    ]
+}
